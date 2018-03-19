@@ -37,6 +37,7 @@ public class Flipkart {
 		boolean myAccountPresence = driver.findElement(By.xpath(newtest.FlipkartElements.myAccountLocator)).isDisplayed();
 		Assert.assertEquals(myAccountPresence, true);
 		Reporter.log("Login is successful!");
+		Reporter.log("Github test");
 		}
 	
 	@Test(priority = 2)
