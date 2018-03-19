@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[You are now in Flipkart site]]>
+    </line>
+    <line>
+      <![CDATA[Login is successful!]]>
+    </line>
+    <line>
+      <![CDATA[Search is successful! You can now select the product]]>
+    </line>
+    <line>
+      <![CDATA[Product is selected]]>
+    </line>
+    <line>
+      <![CDATA[Congrats! Product is successfully added to cart!]]>
+    </line>
+    <line>
+      <![CDATA[The cart is now emptied]]>
+    </line>
+    <line>
+      <![CDATA[Logout is successful!]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="63905" started-at="2018-03-17T18:33:02Z" finished-at="2018-03-17T18:34:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="63905" started-at="2018-03-17T18:33:02Z" finished-at="2018-03-17T18:34:06Z">
+      <class name="newtest.Flipkart">
+        <test-method status="PASS" signature="openBrowserURL()[pri:0, instance:newtest.Flipkart@3532ec19]" name="openBrowserURL" is-config="true" duration-ms="28907" started-at="2018-03-17T18:33:02Z" finished-at="2018-03-17T18:33:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[You are now in Flipkart site]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowserURL -->
+        <test-method status="PASS" signature="loginFlipkart()[pri:1, instance:newtest.Flipkart@3532ec19]" name="loginFlipkart" duration-ms="8007" started-at="2018-03-17T18:33:31Z" finished-at="2018-03-17T18:33:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login is successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginFlipkart -->
+        <test-method status="PASS" signature="searchForProduct()[pri:2, instance:newtest.Flipkart@3532ec19]" name="searchForProduct" duration-ms="1115" started-at="2018-03-17T18:33:39Z" finished-at="2018-03-17T18:33:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Search is successful! You can now select the product]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchForProduct -->
+        <test-method status="PASS" signature="selectProduct()[pri:3, instance:newtest.Flipkart@3532ec19]" name="selectProduct" duration-ms="13989" started-at="2018-03-17T18:33:40Z" finished-at="2018-03-17T18:33:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Product is selected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectProduct -->
+        <test-method status="PASS" signature="addToCart()[pri:4, instance:newtest.Flipkart@3532ec19]" name="addToCart" duration-ms="1876" started-at="2018-03-17T18:33:54Z" finished-at="2018-03-17T18:33:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Congrats! Product is successfully added to cart!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="removeFromCart()[pri:5, instance:newtest.Flipkart@3532ec19]" name="removeFromCart" duration-ms="3212" started-at="2018-03-17T18:33:56Z" finished-at="2018-03-17T18:33:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The cart is now emptied]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- removeFromCart -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:newtest.Flipkart@3532ec19]" name="logout" is-config="true" duration-ms="6732" started-at="2018-03-17T18:33:59Z" finished-at="2018-03-17T18:34:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout is successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- newtest.Flipkart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
